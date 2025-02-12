@@ -1,24 +1,9 @@
-//aritmetic operations
-let studentNum = 30;
+//how to accept user input
 
-// studentNum = studentNum + 1;
-// studentNum = studentNum - 1;
-// studentNum = studentNum * 2;
-// studentNum = studentNum / 2;
-// studentNum = studentNum **2; //power
-// studentNum = studentNum % 4;
+//1. Easy Way
 
-// studentNum +=2;
-// studentNum-=2;
-// studentNum/=1;
-// studentNum*=2;
-// studentNum **= 2;
-// studentNum %= 3;
+let username = window.prompt("What's your user name");
+console.log(username); //username input will be shown there
 
-// studentNum++;
-// studentNum--;
+//2. Professional Way using html
 
-let extraStudent = studentNum % 4;
-
-console.log(studentNum);
-console.log(extraStudent);
