@@ -49,7 +49,7 @@ comment*/
 used for modern js and don't show duplicate things which caused error
 
 ```bash
-"usestrict"; //must be at the beginning
+"use strict"; //must be at the beginning
 alert("hello");
 alert("hello"); //will not showing
 ```
