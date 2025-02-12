@@ -1,23 +1,14 @@
-//Typecast
+//const = a variable that can't be changed
 
-let age = window.prompt("How old are you?");
+const PI = 3.1416;
+let radius;
+radius = Number(radius);
+let circumferance;
 
-age = Number(age);//it will convert string to number so output will 51 of input 50
-age += 1;
+//PI = 420.15; not work because can't reassign const
 
-console.log(age); //It'll show input 50 to output 501 (string) if we don't use number function
-
-console.log(age, typeof(age));
-console.log(age, typeof  age);
-
-//another example
-let x="pizza", y="pizza", z="pizza";
-x=Number(x)
-y=String(y)
-z=Boolean(z)
-
-console.log(x, typeof x); //NaN means not a number
-console.log(y, typeof y);
-console.log(z, typeof z);
-
-//if there are no value in the x,y,z it will show 0,undefined,false output;
+document.getElementById("submit").onclick = function(){
+    radius = document.getElementById("radius").value
+    circumferance = 2*PI*radius;
+    document.getElementById("myh3").textContent = circumferance;
+}
