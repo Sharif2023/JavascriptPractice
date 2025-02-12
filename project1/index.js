@@ -1,15 +1,24 @@
-//variable declaration & assignment
+//aritmetic operations
+let studentNum = 30;
 
-let name = "Sharif", price = 10.99, age= 10, isStudent= true;
-console.log(`My name is ${name} and my age is ${age} and I bought a pen of ${price} tk `);
+// studentNum = studentNum + 1;
+// studentNum = studentNum - 1;
+// studentNum = studentNum * 2;
+// studentNum = studentNum / 2;
+// studentNum = studentNum **2; //power
+// studentNum = studentNum % 4;
 
-console.log(typeof age); //output: number
-console.log(typeof name); //output: string
+// studentNum +=2;
+// studentNum-=2;
+// studentNum/=1;
+// studentNum*=2;
+// studentNum **= 2;
+// studentNum %= 3;
 
-let online= true;
-console.log(typeof online); //output: boolean
+// studentNum++;
+// studentNum--;
 
-//p1 output showing
-document.getElementById("myName").textContent = `My name is ${name}`;
-document.getElementById("age").textContent = `My age is ${age}`;
-document.getElementById("isStudent").textContent = `Student Status: ${isStudent}`;
+let extraStudent = studentNum % 4;
+
+console.log(studentNum);
+console.log(extraStudent);
