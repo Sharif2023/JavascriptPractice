@@ -1,16 +1,23 @@
-//how to accept user input
+//Typecast
 
-//1. Easy Way
+let age = window.prompt("How old are you?");
 
-// let username = window.prompt("What's your user name");
-// console.log(username); //username input will be shown there
+age = Number(age);//it will convert string to number so output will 51 of input 50
+age += 1;
 
-//2. Professional Way using html
+console.log(age); //It'll show input 50 to output 501 (string) if we don't use number function
 
-let username;
+console.log(age, typeof(age));
+console.log(age, typeof  age);
 
-document.getElementById("submit").onclick = function(){
-    username = document.getElementById("username").value;
-    console.log(username);
-    document.getElementById("myh1").textContent = `Hello ${username}`; //added next to h1 by adding id to h1 to change welcome text
-}
+//another example
+let x="pizza", y="pizza", z="pizza";
+x=Number(x)
+y=String(y)
+z=Boolean(z)
+
+console.log(x, typeof x); //NaN means not a number
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+//if there are no value in the x,y,z it will show 0,undefined,false output;
