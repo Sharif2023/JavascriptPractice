@@ -47,3 +47,10 @@ function sum(callback, x, y){
 function display(result){
     console.log(result);
 }
+
+//Example-3
+sum(displayPage, 1, 2);
+
+function displayPage(result){
+    document.getElementById("myH1").textContent = result;
+}
