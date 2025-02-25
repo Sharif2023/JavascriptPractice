@@ -54,3 +54,5 @@ sum(displayPage, 1, 2);
 function displayPage(result){
     document.getElementById("myH1").textContent = result;
 }
+
+//foreach + map: same
